@@ -1,0 +1,27 @@
+[
+  {
+    "id": "email",
+    "type": "email",
+    "placeholder": "name@example.com",
+    "required": true,
+    "pattern": "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$",
+    "errormessage": "Please enter a valid email address",
+    "inputMode": "email",
+    "fieldtype": "input",
+    "label": "Email"
+  },
+  {
+    "id": "forgotPassword",
+    "fieldtype": "link",
+    "link": "/auth/forgot-password",
+    "label": "Forgot Password?"
+  },
+  {
+    "id": "password",
+    "type": "password",
+    "placeholder": "••••••••••",
+    "required": true,
+    "fieldtype": "input",
+    "label": "Password"
+  }
+]
